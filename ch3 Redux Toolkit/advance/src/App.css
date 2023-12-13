@@ -1,0 +1,35 @@
+.App {
+    height: 100vh;
+    background-color: rgb(63, 63, 61);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headings {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-heading{
+    border-top: 3px solid yellow;
+    text-align: center;
+}
+
+.controllers {
+    text-align: center;
+}
+
+.btns {
+    margin: 0px 5px;
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btns:hover {
+    background-color: rgb(56, 53, 53);
+}
